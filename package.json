@@ -1,0 +1,30 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://elirena.github.io/portfolio",
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "fullpage-react": "^3.0.31",
+    "mo-js": "^0.288.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-event-timeline": "^1.5.3",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-vertical-timeline-component": "^2.0.7",
+    "react-view-pager": "^0.6.0",
+    "redux": "^4.0.0",
+    "vis": "^4.21.0",
+    "vis-react": "^0.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "set PUBLIC_URL='/portfolio'&&gh-pages -d build"
+  }
+}
