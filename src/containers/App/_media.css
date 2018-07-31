@@ -1,0 +1,82 @@
+@media (max-width: 1024px){
+    .educ_block {
+        display: block;
+        min-width: 500px;
+        min-height: 240px;
+        margin: 0 auto 40px;
+        padding: 0;
+    }
+    .about_title {
+        text-align: center;
+    }
+    .education, .experience_block, .skills_block, .contacts_block {
+        padding: 30px 0 30px;
+    }
+    .vertical-timeline-element-icon {
+        width: 10px;
+        height: 10px;
+        box-shadow: none;
+        left: 14px;
+    }
+    .skills_tit {
+        margin: 20px 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .feedback-links, .feedback {
+        text-align: center;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .education_text {
+        margin: 20px;
+    }
+    .about_menu.container {
+        text-align: center;
+    }
+    .contacts-info {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    form {
+        margin: 0 auto ;
+    }
+    .contacts {
+        display: block;
+        width: auto;
+    }
+    .skills_list, .skills_tit {
+        display: none;
+    }
+    .skills_block .about_title {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .feedback-input {
+        width: auto;
+    }
+    .button {
+        margin: 0 auto;
+    }
+    .educ_block {
+        min-width: 300px;
+        width: 100%;
+    }
+    .about_title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .about_title img {
+        margin-right: 0;
+    }
+    .vertical-timeline {
+        padding: 0;
+    }
+    .vertical-timeline-element-content {
+        margin-left: 30px;
+    }
+}

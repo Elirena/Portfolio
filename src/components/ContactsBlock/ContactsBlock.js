@@ -9,7 +9,7 @@ class ContactsBlock extends Component {
         return (
             <div className="contacts_block container">
                     <div className="row text">
-                        <div className="col-5">
+                        <div className="col-5 feedback-links">
                             <div className="contacts-info">
                                 <div className="contacts">EMAIL: Elirena@mail.ru</div>
                                 <div className="contacts">phone: +7(904-3378230)</div>

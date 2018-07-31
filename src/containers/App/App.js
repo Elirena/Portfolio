@@ -10,7 +10,7 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import './_animation.css';
-
+import './_media.css';
 
 
 class App extends Component {

@@ -19,6 +19,9 @@
     "vis": "^4.21.0",
     "vis-react": "^0.3.0"
   },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
