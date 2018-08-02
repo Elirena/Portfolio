@@ -79,4 +79,41 @@
     .vertical-timeline-element-content {
         margin-left: 30px;
     }
+    .info_block {
+        width: 100%;
+        background-color: white;
+        left: 0;
+        top: 0;
+    }
+    .back_links {
+        margin: 10px auto;
+        text-align: center;
+    }
+    .slide1_title {
+        font-size: 25px;
+        margin: 20px auto 10px;
+        text-align: center;
+    }
+    .slide1_subtitle {
+        font-size: 14px;
+        text-align: center;
+    }
+    .slide1_links {
+        margin: 30px auto;
+    }
+    .o-hover__block {
+        display: block;
+    }
+    .slide1, .slide2, .slide3, .slide4 {
+        background: #ffffff;
+    }
+    .slide1_content {
+        text-align: left;
+        font-size: 14px;
+    }
+    .slide1_tech {
+        font-size: 18px;
+        text-align: center;
+    }
+
 }

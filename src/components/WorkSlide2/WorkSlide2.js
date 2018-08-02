@@ -28,11 +28,11 @@ class WorkSlide2 extends Component {
 
                         <div className="slide1_links animated_links slideInDown0">
                             <div className="o-hover__block">
-                                <a className="c-btn c-btn--big-line" href="#" data-hover-name="BIG.LINE">
+                                <a className="c-btn c-btn--big-line" href="https://github.com/Elirena/baths" target="_blank" data-hover-name="BIG.LINE">
                                     <span className='colorLink'>CODE</span>.link</a>
                             </div>
                             <div className="o-hover__block">
-                                <a className="c-btn c-btn--big-line" href="#" data-hover-name="BIG.LINE">
+                                <a className="c-btn c-btn--big-line" href="https://elirena.github.io/baths/" target="_blank" data-hover-name="BIG.LINE">
                                     <span className='colorLink'>DEMO</span>.link</a>
                             </div>
                         </div>
