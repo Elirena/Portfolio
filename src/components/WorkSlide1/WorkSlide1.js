@@ -36,8 +36,9 @@ class WorkSlide1 extends Component {
                         </div>
 
                         <div className="slide1_description animated_description slideInDown0">
-                            разработка дизайна и перенос верстки на react,
-                            что еще написать и еще надо написать
+                            разработка дизайна,<br/>
+                            верстка на react,
+                            реализация <br/>рассчетного калькулятора
                         </div>
 
                         <div className="slide1_tech animated_tech slideInDown0">

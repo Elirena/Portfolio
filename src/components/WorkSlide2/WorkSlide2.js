@@ -38,8 +38,8 @@ class WorkSlide2 extends Component {
                         </div>
 
                         <div className="slide1_description animated_description slideInDown0">
-                            разработка дизайна и перенос верстки на react,
-                            получениe данных с сервера добавить инфы
+                            разработка дизайна и верстка на react,<br/>
+                            получениe каталога с сервера, <br/>реализация фильтра
                         </div>
 
                         <div className="slide1_tech animated_tech slideInDown0">

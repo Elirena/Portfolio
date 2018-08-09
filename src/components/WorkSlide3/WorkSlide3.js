@@ -39,8 +39,9 @@ class WorkSlide3 extends Component {
                         </div>
 
                         <div className="slide1_description  animated_description slideInDown0">
-                            -описание проекта,<br/>
-                            -что чего куда как зачем
+                            верстка на react, реализация работы <br/>
+                            с пользовательскими данными с помощью redux
+
                         </div>
 
 

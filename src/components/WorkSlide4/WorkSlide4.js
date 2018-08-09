@@ -33,8 +33,9 @@ class WorkSlide4 extends Component {
                         </div>
 
                         <div className="slide1_description animated_description slideInDown0">
-                            разработка дизайна и структуры мобильного<br/>
-                            приложения для йога-сообщества
+                            разработка дизайна и структуры <br/>мобильного
+                            приложения для йога-сообщества, <br/>
+                            поиск и создание графического контента
                         </div>
                     </div>
                 </div>

@@ -117,10 +117,11 @@
         text-align: center;
     }
     .slide1_links {
-        margin: 30px auto;
+        margin: 20px auto;
     }
     .o-hover__block {
         display: block;
+        margin-bottom: 15px;
     }
     .slide1, .slide2, .slide3, .slide4 {
         background: #ffffff;
@@ -143,5 +144,8 @@
     }
     .contacts_block {
         width: 100%;
+    }
+    .info_1 {
+        margin-bottom: 20px;
     }
 }

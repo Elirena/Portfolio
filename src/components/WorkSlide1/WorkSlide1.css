@@ -1,9 +1,29 @@
 .slide1 {
-    background:  url(./img/slide1.JPG) center no-repeat;
-    background-size: 100% auto;
+    background-size:  contain,  contain,  contain, cover;
     margin: -5px;
     height: 100%;
+    background-image:  url(./img/01.png), url(./img/02.png), url(./img/03.png), url(./img/slide_1_fon.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat ;
+    background-position: top right, top right, top right, center;
+    animation: animatedFon 0.1s linear ;
 }
+
+@keyframes animatedFon {
+    from { background-position: 0 0, 0 0, 0 0, 0 0; }
+    to { background-position:  100% -30px, 100% -20px, -20px 100%, 0 0; }
+}
+
+.slide1:hover {
+
+}
+
+
+
+
+
+
+
+
 .info_block {
     background:  #ffffff url(./img/fon.jpg) center no-repeat;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 5, 0.03);
@@ -370,3 +390,7 @@
     transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
     transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
 }
+
+
+
+
