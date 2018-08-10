@@ -9,8 +9,7 @@ class ContactsBlock extends Component {
                             <div className="contacts-info">
                                 <div className="contacts">EMAIL: Elirena@mail.ru</div>
                                 <div className="contacts">phone: +7(904-3378230)</div>
-                                <div className="contacts">скачать резюме</div>
-                                <a className="contacts" href="./denisova_frontend.doc" download>скачать резюме</a><br/>
+                                <a className="contacts" href="./denisova_frontend.doc" download="">скачать резюме</a><br/>
 
                                 <span id="email">
                                     <a href="https://github.com/Elirena" target="_blank" rel="noopener noreferrer">

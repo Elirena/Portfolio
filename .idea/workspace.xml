@@ -4,21 +4,23 @@
     <list default="true" id="b5e7c89f-23a4-4dc2-9917-224fe33e3b38" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/components/ContactsBlock/ContactsBlock.js" afterPath="$PROJECT_DIR$/src/components/ContactsBlock/ContactsBlock.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/EducationBlock/EducationBlock.js" afterPath="$PROJECT_DIR$/src/components/EducationBlock/EducationBlock.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExperienceBlock/ExperienceBlock.js" afterPath="$PROJECT_DIR$/src/components/ExperienceBlock/ExperienceBlock.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkillsBlock/SkillsBlock.js" afterPath="$PROJECT_DIR$/src/components/SkillsBlock/SkillsBlock.js" />
       <change beforePath="$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.css" afterPath="$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.css" />
       <change beforePath="$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.js" afterPath="$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide1/img/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide1/img/slide01.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/components/WorkSlide2/WorkSlide2.js" afterPath="$PROJECT_DIR$/src/components/WorkSlide2/WorkSlide2.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide2/img/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide2/img/slide02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide2/img/slide_2.jpg" afterPath="$PROJECT_DIR$/src/components/WorkSlide2/img/slide_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide2/img/slide_2.psd" afterPath="$PROJECT_DIR$/src/components/WorkSlide2/img/slide_2.psd" />
       <change beforePath="$PROJECT_DIR$/src/components/WorkSlide3/WorkSlide3.js" afterPath="$PROJECT_DIR$/src/components/WorkSlide3/WorkSlide3.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide3/img/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide3/img/slide03.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/components/WorkSlide4/WorkSlide4.js" afterPath="$PROJECT_DIR$/src/components/WorkSlide4/WorkSlide4.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AboutPage/AboutPage.css" afterPath="$PROJECT_DIR$/src/containers/AboutPage/AboutPage.css" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AboutPage/AboutPage.js" afterPath="$PROJECT_DIR$/src/containers/AboutPage/AboutPage.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App/App.css" afterPath="$PROJECT_DIR$/src/containers/App/App.css" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App/App.js" afterPath="$PROJECT_DIR$/src/containers/App/App.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide4/img/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide4/img/slide_4.jpg" afterPath="$PROJECT_DIR$/src/components/WorkSlide4/img/slide_4.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkSlide4/img/slide_4.psd" afterPath="$PROJECT_DIR$/src/components/WorkSlide4/img/slide_4.psd" />
       <change beforePath="$PROJECT_DIR$/src/containers/App/_media.css" afterPath="$PROJECT_DIR$/src/containers/App/_media.css" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MainPage/MainPage.js" afterPath="$PROJECT_DIR$/src/containers/MainPage/MainPage.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/PortfolioPage/PortfolioPage.js" afterPath="$PROJECT_DIR$/src/containers/PortfolioPage/PortfolioPage.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,41 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="_media.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_media.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/App/_media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3650">
-              <caret line="146" column="26" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactsBlock.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/ContactsBlock/ContactsBlock.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="12" column="95" lean-forward="false" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/App/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutPage.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/AboutPage/AboutPage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="372" column="22" lean-forward="false" selection-start-line="372" selection-start-column="22" selection-end-line="372" selection-end-column="22" />
+            <state relative-caret-position="414">
+              <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -96,23 +68,23 @@
         <option value="$PROJECT_DIR$/src/components/WorkSlide2/WorkSlide2.css" />
         <option value="$PROJECT_DIR$/src/components/WorkSlide3/WorkSlide3.css" />
         <option value="$PROJECT_DIR$/src/components/WorkSlide4/WorkSlide4.css" />
-        <option value="$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.css" />
         <option value="$PROJECT_DIR$/src/containers/AboutPage/AboutPage.js" />
         <option value="$PROJECT_DIR$/src/containers/App/App.js" />
         <option value="$PROJECT_DIR$/src/containers/PortfolioPage/PortfolioPage.js" />
         <option value="$PROJECT_DIR$/src/containers/MainPage/MainPage.js" />
         <option value="$PROJECT_DIR$/src/components/ExperienceBlock/ExperienceBlock.js" />
-        <option value="$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.js" />
         <option value="$PROJECT_DIR$/src/components/LeftNavigation/LeftNavigation.js" />
-        <option value="$PROJECT_DIR$/src/components/WorkSlide2/WorkSlide2.js" />
-        <option value="$PROJECT_DIR$/src/components/WorkSlide3/WorkSlide3.js" />
-        <option value="$PROJECT_DIR$/src/components/WorkSlide4/WorkSlide4.js" />
         <option value="$PROJECT_DIR$/src/components/SkillsBlock/SkillsBlock.js" />
         <option value="$PROJECT_DIR$/src/components/EducationBlock/EducationBlock.js" />
-        <option value="$PROJECT_DIR$/src/containers/App/_media.css" />
         <option value="$PROJECT_DIR$/src/containers/AboutPage/AboutPage.css" />
         <option value="$PROJECT_DIR$/src/containers/App/App.css" />
         <option value="$PROJECT_DIR$/src/components/ContactsBlock/ContactsBlock.js" />
+        <option value="$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.css" />
+        <option value="$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.js" />
+        <option value="$PROJECT_DIR$/src/components/WorkSlide2/WorkSlide2.js" />
+        <option value="$PROJECT_DIR$/src/components/WorkSlide3/WorkSlide3.js" />
+        <option value="$PROJECT_DIR$/src/components/WorkSlide4/WorkSlide4.js" />
+        <option value="$PROJECT_DIR$/src/containers/App/_media.css" />
       </list>
     </option>
   </component>
@@ -169,20 +141,13 @@
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ContactsBlock" type="462c0819:PsiDirectoryNode" />
+              <item name="WorkSlide2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +210,7 @@
       <workItem from="1533204689772" duration="11086000" />
       <workItem from="1533386193176" duration="2126000" />
       <workItem from="1533577979674" duration="12549000" />
-      <workItem from="1533800735616" duration="9472000" />
+      <workItem from="1533800735616" duration="14737000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1532874797622</created>
@@ -258,7 +223,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42877000" />
+    <option name="totallyTimeSpent" value="48142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2326" height="1258" extended-state="6" />
@@ -512,14 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide2/WorkSlide2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/WorkSlide3/WorkSlide3.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -532,14 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -590,14 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LeftNavigation/LeftNavigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -605,30 +546,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide2/WorkSlide2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide3/WorkSlide3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide4/WorkSlide4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,18 +595,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/App/_media.css">
+    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide2/WorkSlide2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3650">
-          <caret line="146" column="26" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+        <state relative-caret-position="25">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide2/WorkSlide2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide3/WorkSlide3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide4/WorkSlide4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ContactsBlock/ContactsBlock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="95" lean-forward="false" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+        <state relative-caret-position="575">
+          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WorkSlide1/WorkSlide1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App/_media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
           <folding />
         </state>
       </provider>

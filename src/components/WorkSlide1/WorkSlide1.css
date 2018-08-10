@@ -8,6 +8,10 @@
     animation: animatedFon 0.1s linear ;
 }
 
+.media-view {
+    display: none;
+}
+
 @keyframes animatedFon {
     from { background-position: 0 0, 0 0, 0 0, 0 0; }
     to { background-position:  100% -30px, 100% -20px, -20px 100%, 0 0; }

@@ -14,6 +14,7 @@ class WorkSlide3 extends Component {
                         <Link  className="main_link sub_link" to="/" >главная</Link>
                         <Link  className="about_link sub_link" to="/about">инфо</Link>
                     </div>
+                    <div className="media-view"/>
                     <div className="slide1_content">
                         <div className="slide1_title animated_title slideInDown0">
                             Axapper
