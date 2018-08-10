@@ -125,8 +125,13 @@
         padding-left: 15px;
         margin-top: 10px;
     }
+    .slide1_description, .slide1_tech {
+        display: none;
+    }
     .head {
         height: 250px;
+        background-position: top;
+        background-repeat: no-repeat;
     }
     .feedback-input {
         width: auto;
@@ -182,7 +187,7 @@
     }
     .contacts_block {
         width: 100%;
-        margin-top: -30px;
+        margin-top: -20px;
     }
     .info_1 {
         margin-bottom: 20px;

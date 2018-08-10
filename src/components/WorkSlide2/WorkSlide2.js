@@ -42,7 +42,7 @@ class WorkSlide2 extends Component {
                         </div>
 
                         <div className="slide1_tech animated_tech slideInDown0">
-                            react--redux--сервер
+                            react--сервер
                         </div>
                     </div>
                 </div>
