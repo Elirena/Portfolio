@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PortfolioPage from "../PortfolioPage/PortfolioPage";
 import AboutPage from "../AboutPage/AboutPage";
-import LeftNavigation from "../../components/LeftNavigation/LeftNavigation";
 import MainPage from "../MainPage/MainPage";
 import {
     BrowserRouter as Router,
@@ -11,7 +10,6 @@ import {
 import './App.css';
 import './_animation.css';
 import './_media.css';
-
 
 class App extends Component {
     render() {

@@ -7,10 +7,6 @@ import icon1 from './img/exp_icon.png';
 import './ExperienceBlock.css';
 
 class ExperienceBlock extends Component {
-    constructor(props) {
-        super(props);
-
-    }
 
     render() {
         return (
@@ -59,7 +55,7 @@ class ExperienceBlock extends Component {
                         <p>
                             Верстка страниц, доработка на JavaScript функционала клиентской части,
                             разработка мобильной версии интернет-магазина
-                           <a href="https://umkamall.ru/" target="_blank"> umkamall.ru</a>
+                           <a href="https://umkamall.ru/" target="_blank"  rel="noopener noreferrer"> umkamall.ru</a>
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement

@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import vis from 'vis';
 import icon1 from './img/skill_icon.png';
-import icon3 from './img/k.jpg';
 import reacticon from './img/react.png';
 import git from './img/git.png';
 import github from './img/github1.png';
@@ -25,11 +24,7 @@ import tech from './img/tech.png';
 
 import './SkillsBlock.css';
 
-
 class SkillsBlock extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
@@ -39,54 +34,9 @@ class SkillsBlock extends Component {
                         <img src={icon1} alt="kartinka" height="40px"/>Навыки
                     </span>
                 </div>
-                {/*<div className="row text">*/}
-                    {/*<div className="col-5">*/}
-                        {/*Adobe Photoshop*/}
-                        {/*Полноценная работа с растровой графикой*/}
-                        {/*создание, обработка изображений, техдизайн*/}
-                        {/*Adobe Illustrator*/}
-                        {/*Базовые навыки работы с векторной графикой*/}
-                        {/*Adobe Premiere Pro*/}
-                        {/*Съемка, монтаж, корректировка видео материалов*/}
-                        {/*Adobe Flash*/}
-                        {/*Swf анимация, создание мультимедийных проектов*/}
 
-                        {/*разработка*/}
-                        {/*Html5,Css*/}
-                        {/*Адаптивная верстка макетов и анимация средней сложности*/}
-                        {/*JavaScript*/}
-                        {/*Полноценная разработка клиентской части веб-приложения*/}
-                        {/*(Git, Gulp, JSON)*/}
-                        {/*ActionScript*/}
-                        {/*Создание мультимедийных презентаций*/}
-                    {/*</div>*/}
-                    {/*<div className="col-5 skills_icons">*/}
-                        {/*<div className="skill_icon" >*/}
-                            {/*<span className="icon_text">Ps</span>*/}
-                        {/*</div>*/}
-                        {/*<div className="skill_icon">*/}
-                            {/*<span className="icon_text">Pl</span>*/}
-                        {/*</div>*/}
-                        {/*<div className="skill_icon">*/}
-                            {/*<span className="icon_text">Pr</span>*/}
-                        {/*</div>*/}
-                        {/*<div className="skill_icon">*/}
-                            {/*<span className="icon_text">Js</span>*/}
-                        {/*</div>*/}
-                        {/*<div className="skill_icon">*/}
-                            {/*<span className="icon_text">Html/Css</span>*/}
-                        {/*</div>*/}
-                        {/*<div className="skill_icon">*/}
-                            {/*<span className="icon_text">React</span>*/}
-                        {/*</div>*/}
-                        {/*<div className="skill_icon">*/}
-                            {/*<span className="icon_text">Redux</span>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
                 <div className="center">
                     <div className="skills_list" ref={el => this.net = el}/>
-                    {/*<img src={icon3} alt="kartinka" height="650px"/><br/>*/}
                     <div className="head">
                         <div className="skills_tit"> <button className="demo">Дизайн</button></div>
                         <div className="skills_tit"><button className="signup">Разработка</button></div>
@@ -98,8 +48,6 @@ class SkillsBlock extends Component {
 
     componentDidMount() {
         const {net: netElement} = this;
-        // const DIR = 'img/soft-scraps-icons/';
-
         let nodes = null;
         let edges = null;
         let network = null;
@@ -112,13 +60,12 @@ class SkillsBlock extends Component {
         function draw() {
             // create people.
             // value corresponds with the age of the person
-            let DIR = icon1;
             nodes = new vis.DataSet([
                 {id: 0,  shape: 'text', label:"skills", x: -100, y: 0, fixed: true, font: {size: 35, color: '#444b54'}, hover: false },
                 {id: 11,  shape: 'text', value: 50, label:"design", font: {size: 30, color: '#444b54'}},
                 {id: 22,  shape: 'text',  value: 50, label:"development", color: {border:'#444b54'}, font: {size: 30, color: '#444b54'}},
-                {id: 5,  shape: 'circularImage', image: sassic, label:"Sass", color: {border:'#444b54'}, title: "Полноценная"},
-                {id: 6,  shape: 'circularImage', image: reduxicon, label:"Redux", color: {border:'#444b54'}, title: "Полноценная"},
+                {id: 5,  shape: 'circularImage', image: sassic, label:"Sass", color: {border:'#444b54'} },
+                {id: 6,  shape: 'circularImage', image: reduxicon, label:"Redux", color: {border:'#444b54'}},
                 {id: 7,  shape: 'circularImage', image: reacticon, label:"React", color: {border:'#444b54'}},
                 {id: 101, shape: 'circularImage', image: photoic, label:"фото/видео-съемка", color: {border:'#fcdb74'}},
                 {id: 102, shape: 'circularImage', image: ps, label:"PS", color: {border:'#fcdb74'}},
@@ -134,13 +81,13 @@ class SkillsBlock extends Component {
                 {id: 501, shape: 'circularImage', image: htmlic, label:"HTML", color: {border:'#444b54'}},
                 {id: 502, shape: 'circularImage', image: cssic, label:"CSS", color: {border:'#444b54'}},
                 {id: 503, shape: 'circularImage', image: less, label:"Less", color: {border:'#444b54'}},
-                {id: 601, shape: 'circularImage', image: js, label:"JS", color: {border:'#444b54'}, title: "Полноценная"},
+                {id: 601, shape: 'circularImage', image: js, label:"JS", color: {border:'#444b54'}},
                 {id: 701, shape: 'circularImage', image:  tech, label:"техдизайн", color: {border:'#fcdb74'}},
                 {id: 702, shape: 'circularImage', image: desic, label:"графический", color: {border:'#fcdb74'}},
             ]);
 
-            // create connections between people
-            // value corresponds with the amount of contact between two people
+            // create connections between skills
+            // value corresponds with the amount of contact between two skills
             edges = [
                 {from: 0, to: 22, color: {color:'#444b54'}},
                 {from: 0, to: 11, color: {color:'#fcdb74'}},
@@ -177,7 +124,6 @@ class SkillsBlock extends Component {
             };
             const options = {
                 interaction: {
-                    hover: true,
                     hoverConnectedEdges: false
                 },
                 manipulation: {enabled: true},
@@ -186,10 +132,6 @@ class SkillsBlock extends Component {
                 },
                 physics:{
                     adaptiveTimestep:false,
-                    // minVelocity: 0.75,
-                    // maxVelocity: 146,
-                    // solver: 'forceAtlas2Based',
-                    // timestep: 0.35,
                     stabilization: {iterations: 150}
                 },
                 nodes: {
@@ -199,12 +141,8 @@ class SkillsBlock extends Component {
                         border: '#cecece',
                         background: '#ffffff',
                         highlight: {},
-                        hover: {
-                            border: '#ffffff',
-                        }
                     },
                     shadow: true,
-                    hover: true,
                     size: 50,
                     font:{color:'#220405'},
                     fixed: {
@@ -212,14 +150,11 @@ class SkillsBlock extends Component {
                         x: false,
                     },
                     shapeProperties: {
-                        borderRadius: null,
+                        borderRadius: 0,
                     },
                 },
                 edges: {
                     color: '#444b54',
-                    borderWidth: 1,
-                    borderWidthSelected: 1,
-                    border: '#444b54',
                     length: 200,
                 }
             };
@@ -262,7 +197,7 @@ class SkillsBlock extends Component {
             // if we click on a node, we want to open it up!
             network.on("selectNode", function (params) {
                 if (params.nodes.length === 1) {
-                    if (network.isCluster(params.nodes[0]) == true) {
+                    if (network.isCluster(params.nodes[0]) === true) {
                         network.openCluster(params.nodes[0])
                     }
                 }

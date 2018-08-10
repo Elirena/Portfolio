@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
 import icon1 from './img/edu_icon.png';
 class EducationBlock extends Component {
-    constructor(props) {
-        super(props);
-
-    }
 
     render() {
         return (

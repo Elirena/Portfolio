@@ -6,7 +6,6 @@ import WorkSlide3 from "../../components/WorkSlide3/WorkSlide3";
 import WorkSlide4 from "../../components/WorkSlide4/WorkSlide4";
 import './PortfolioPage.css';
 
-
 const fullPageOptions = {
     scrollSensitivity: 7,
     touchSensitivity: 7,
@@ -33,10 +32,6 @@ fullPageOptions.slides = [ <HorizontalSlider {...horizontalSliderProps}/>];
 
 
 class PortfolioPage extends Component {
-    constructor(props) {
-        super(props);
-
-    }
 
     componentWillUnmount() {
         const { document } = global;
@@ -55,9 +50,6 @@ class PortfolioPage extends Component {
 
 export default PortfolioPage;
 
-/**
- *
- */
 
 
 

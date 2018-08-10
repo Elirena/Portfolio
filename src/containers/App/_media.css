@@ -144,6 +144,7 @@
     }
     .contacts_block {
         width: 100%;
+        margin-top: -30px;
     }
     .info_1 {
         margin-bottom: 20px;

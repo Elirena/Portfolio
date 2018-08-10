@@ -7,13 +7,7 @@ import ContactsBlock from "../../components/ContactsBlock/ContactsBlock";
 
 import './AboutPage.css';
 
-
-
 class AboutPage extends Component {
-    constructor(props) {
-        super(props);
-
-    }
 
     render() {
         return (

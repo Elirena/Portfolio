@@ -1,9 +1,5 @@
 import React, {Component} from 'react';
 class ContactsBlock extends Component {
-    constructor(props) {
-        super(props);
-
-    }
 
     render() {
         return (
@@ -13,16 +9,16 @@ class ContactsBlock extends Component {
                             <div className="contacts-info">
                                 <div className="contacts">EMAIL: Elirena@mail.ru</div>
                                 <div className="contacts">phone: +7(904-3378230)</div>
-                                <div className="contacts">скачать резюме</div><br/>
+                                <div className="contacts">скачать резюме</div>
+                                <a className="contacts" href="./denisova_frontend.doc" download>скачать резюме</a><br/>
 
                                 <span id="email">
-                                    <a href="https://github.com/Elirena" target="_blank">
+                                    <a href="https://github.com/Elirena" target="_blank" rel="noopener noreferrer">
                                       <p>github.com/Elirena</p>
                                       <span className="cursor">|</span>
                                       <span className="button1">GitHub</span>
                                     </a>
                                 </span>
-
                             </div>
                         </div>
 
@@ -31,12 +27,10 @@ class ContactsBlock extends Component {
                                 <p className="contacts-tit">Написать сообщение</p>
                                 <input name="name" type="text" className="feedback-input" placeholder="Name" />
                                 <input name="email" type="text" className="feedback-input" placeholder="Email" />
-                                <textarea name="text" className="feedback-input" placeholder="Comment"> </textarea>
+                                <textarea name="text" className="feedback-input" placeholder="Comment"/>
                                 <div className="button"><span>отправить</span></div>
                             </form>
-
                         </div>
-
                     </div>
             </div>
         );

@@ -267,7 +267,7 @@ button {
     color: #121217;
     font-size: 18px;
     font-weight: bold;
-    background-image: linear-gradient(top,#ffffff 1px, #ffffff 1px,#ffffff 100% );
+    background: #ffffff;
     box-shadow: 0 60px 12px -18px hsla(0,0%,0%,.1),
     0 60px 20px -12px hsla(0,0%,0%,.1);
     animation: float 1s infinite ease-in-out alternate;
@@ -371,7 +371,6 @@ button.signup {
     padding: 50px 0 70px;
     background: #1f1f1f;
     margin-top: -75px;
-    margin-bottom: -10px;
     overflow: hidden;
 }
 .contacts-tit {
@@ -525,9 +524,6 @@ textarea {
 
 
 
-
-
-
 #email{
     font-size:20px;
     color: rgba(255,255,255,.87);
@@ -546,7 +542,7 @@ textarea {
 }
 
 #email p {
-    width: 0em;
+    width: 0;
     white-space:nowrap;
     overflow:hidden;
     display:inline-block;

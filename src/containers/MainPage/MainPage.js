@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import './MainPage.css';
 
 class MainPage extends Component {
-    constructor(props) {
-        super(props);
-
-    }
 
     render() {
         return (
@@ -18,10 +14,6 @@ class MainPage extends Component {
                             <div className="info_1">Denisova Aleksandra</div>
                             <div className="info_2">Frontend Developer</div>
                         </div>
-                        {/*<div className="main_links">*/}
-                            {/*<div className="link_1">PORTFOLIO</div>*/}
-                            {/*<div className="link_2">ABOUT</div>*/}
-                        {/*</div>*/}
 
                         <Link  className="flash1 animated_main2 slideInDownMain" to="/portfolio" >PORTFOLIO</Link>
                         <Link  className="flash1 animated_main3 slideInDownMain" to="/about">ABOUT</Link>
