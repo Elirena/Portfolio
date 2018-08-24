@@ -9,22 +9,22 @@ class WorkSlide4 extends Component {
         const {slideFn}= this.props;
         return (
             <div className="slide4 fadeIn0 animated00">
-                <div className="info_block ">
+                <div className="info_block slideInUp0 animated0">
                     <div className="back_links">
                         <Link  className="main_link sub_link" to="/" >главная</Link>
                         <Link  className="about_link sub_link" to="/about">инфо</Link>
                     </div>
                     <div className="media-view"/>
                     <div className="slide1_content">
-                        <div className="slide1_title ">
+                        <div className="slide1_title animated_title slideInDown0">
                             Yoga
                         </div>
 
-                        <div className="slide1_subtitle ">
+                        <div className="slide1_subtitle animated_subtitle slideInDown0">
                             Мобильное приложение
                         </div>
 
-                        <div className="slide1_links ">
+                        <div className="slide1_links animated_links slideInDown0">
                             <div className="o-hover__block">
                                 <a className="c-btn c-btn--big-line" href="https://elirena.github.io/yoga/"
                                    target="_blank" rel="noopener noreferrer" data-hover-name="BIG.LINE">

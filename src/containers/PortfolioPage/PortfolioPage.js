@@ -23,7 +23,7 @@ const horizontalSliderProps = {
     name: 'horizontalSlider1', // name is required
     infinite: true, // enable infinite scrolling
     hideScrollBars: true,
-    resetSlides: false,
+    resetSlides: true,
     enableArrowKeys: false,
     activeSlide: 0,
 };
@@ -32,6 +32,7 @@ const horizontalSlides = [
     <Slide> <WorkSlide2 slideFn={changeHorizontalSlide.bind(this,'horizontalSlider1')}/> </Slide>,
     <Slide> <WorkSlide3 slideFn={changeHorizontalSlide.bind(this,'horizontalSlider1')}/> </Slide>,
     <Slide> <WorkSlide4 slideFn={changeHorizontalSlide.bind(this,'horizontalSlider1')}/> </Slide>,
+    <Slide><div/></Slide>,
 ];
 horizontalSliderProps.slides = horizontalSlides;
 fullPageOptions.slides = [ <HorizontalSlider {...horizontalSliderProps}/>];

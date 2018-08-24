@@ -287,8 +287,8 @@
 }
 
 .fadeIn0 {
-    -webkit-animation-name: fadeIn0;
-    animation-name: fadeIn0;
+    /*-webkit-animation-name: fadeIn0;*/
+    /*animation-name: fadeIn0;*/
 }
 
 .animated00 {
