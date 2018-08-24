@@ -7,6 +7,10 @@ import ContactsBlock from "../../components/ContactsBlock/ContactsBlock";
 
 import './AboutPage.css';
 
+/**
+ * Вложенные: EducationBlock - ExperienceBlock - SkillsBlock - ContactsBlock
+ */
+
 class AboutPage extends Component {
 
     render() {

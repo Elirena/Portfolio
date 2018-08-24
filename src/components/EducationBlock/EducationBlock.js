@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import icon1 from './img/edu_icon.png';
+
+/**
+ * Блок образование
+ */
+
 class EducationBlock extends Component {
 
     render() {

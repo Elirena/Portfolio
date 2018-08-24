@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-
+import SlideArrowBtn from "../SlideArrowBtn/SlideArrowBtn";
 
 import './WorkSlide3.css';
 
 class WorkSlide3 extends Component {
 
     render() {
+        const {slideFn}= this.props;
         return (
             <div className="slide3 fadeIn0 animated00">
                 <div className="info_block slideInUp0 animated0">
@@ -45,6 +46,16 @@ class WorkSlide3 extends Component {
 
                         <div className="slide1_tech animated_tech slideInDown0">
                             react--redux
+                        </div>
+                        <div className="arrow-nav">
+                            <SlideArrowBtn
+                                direction="arrow-btn prew"
+                                callFn={slideFn.bind(this,1)}
+                            />
+                            <SlideArrowBtn
+                                direction="arrow-btn next"
+                                callFn={slideFn.bind(this,3)}
+                            />
                         </div>
                     </div>
                 </div>

@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-
+import SlideArrowBtn from "../SlideArrowBtn/SlideArrowBtn";
 import './WorkSlide2.css';
 
 class WorkSlide2 extends Component {
 
     render() {
+        const {slideFn}= this.props;
         return (
             <div className="slide2 fadeIn0 animated00">
                 <div className="info_block slideInUp0 animated0">
@@ -43,6 +44,16 @@ class WorkSlide2 extends Component {
 
                         <div className="slide1_tech animated_tech slideInDown0">
                             react--сервер
+                        </div>
+                        <div className="arrow-nav">
+                            <SlideArrowBtn
+                                direction="arrow-btn prew"
+                                callFn={slideFn.bind(this,0)}
+                            />
+                            <SlideArrowBtn
+                                direction="arrow-btn next"
+                                callFn={slideFn.bind(this,2)}
+                            />
                         </div>
                     </div>
                 </div>

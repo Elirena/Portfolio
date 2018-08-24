@@ -1,5 +1,5 @@
 .slide3 {
     background:  url(./img/slide_3.jpg) center no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     height: 100%;
 }

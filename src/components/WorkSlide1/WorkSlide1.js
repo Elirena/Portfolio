@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import './WorkSlide1.css';
+import SlideArrowBtn from "../SlideArrowBtn/SlideArrowBtn";
 
 class WorkSlide1 extends Component {
 
     render() {
+        const {slideFn}= this.props;
         return (
             <div className="slide1 fadeIn0 animated00">
                 <div className="info_block slideInUp0 animated0">
@@ -37,14 +39,21 @@ class WorkSlide1 extends Component {
 
                         <div className="slide1_description animated_description slideInDown0">
                             разработка дизайна,<br/>
-                            верстка на react,
-                            реализация <br/>рассчетного калькулятора
+                            верстка на react, реализация <br/>
+                            рассчетного калькулятора
                         </div>
 
                         <div className="slide1_tech animated_tech slideInDown0">
                             react--redux
                         </div>
+                        <div className="arrow-nav">
+                            <SlideArrowBtn
+                                direction="arrow-btn next"
+                                callFn={slideFn.bind(this,1)}
+                            />
+                        </div>
                     </div>
+                    
                 </div>
 
             </div>

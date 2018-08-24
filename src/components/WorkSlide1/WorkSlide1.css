@@ -1,24 +1,14 @@
 .slide1 {
-    background-size:  contain,  contain,  contain, cover;
     margin: -5px;
     height: 100%;
-    background-image:  url(./img/01.png), url(./img/02.png), url(./img/03.png), url(./img/slide_1_fon.jpg);
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat ;
-    background-position: top right, top right, top right, center;
+    background: url(./img/slide_1.jpg)  no-repeat center;
+    background-size: cover;
     animation: animatedFon 0.1s linear ;
 }
 
 .media-view {
     display: none;
 }
-
-@keyframes animatedFon {
-    from { background-position: 0 0, 0 0, 0 0, 0 0; }
-    to { background-position:  100% -30px, 100% -20px, -20px 100%, 0 0; }
-}
-
-
-
 
 .info_block {
     background:  #ffffff url(./img/fon.jpg) center no-repeat;
@@ -72,22 +62,24 @@
 
 .slide1_links {
     color: #fcdb74;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     cursor: pointer;
 }
 
 .slide1_tech {
     color: #fcdb74;
     letter-spacing: 0.1em;
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 30px;
 }
+.arrow-nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 
-
-
-
-
+}
+/*меню назад*/
 
 .sub_link {
     position: relative;
@@ -132,32 +124,27 @@
      transform: translateY(100%);
  }
 
-
 .main_link::after {
     content: "main";
 }
 .main_link::before {
     content: "main <";
 }
-
-
 .about_link::after {
     content: "about";
 }
 .about_link::before {
     content: "about<";
 }
-
 .port_link::after {
     content: "portfolio";
 }
-
 .port_link::before {
     content: "portfolio";
 }
 
 
-
+/*анимация появления*/
 
 @-webkit-keyframes slideInUp0 {
     from {
@@ -200,10 +187,6 @@
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
 }
-
-
-
-
 
 @-webkit-keyframes slideInDown0 {
     from {
@@ -313,11 +296,9 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-
 }
 
-
-
+/*внешние ссылки*/
 
 .colorLink {
     color: #1f1f1f;
@@ -386,7 +367,6 @@
     transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
     transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
 }
-
 
 
 

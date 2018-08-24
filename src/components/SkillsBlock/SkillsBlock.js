@@ -24,6 +24,10 @@ import tech from './img/tech.png';
 
 import './SkillsBlock.css';
 
+/**
+ * Блок навыки
+ */
+
 class SkillsBlock extends Component {
 
     render() {
@@ -46,6 +50,7 @@ class SkillsBlock extends Component {
         );
     }
 
+/*** Канвас ноды настрйока*/
     componentDidMount() {
         const {net: netElement} = this;
         let nodes = null;
@@ -58,8 +63,8 @@ class SkillsBlock extends Component {
         let clusterFactor = 0.9;
         // Called when the Visualization API is loaded.
         function draw() {
-            // create people.
-            // value corresponds with the age of the person
+            // create skills.
+            // value corresponds
             nodes = new vis.DataSet([
                 {id: 0,  shape: 'text', label:"skills", x: -100, y: 0, fixed: true, font: {size: 35, color: '#444b54'}, hover: false },
                 {id: 11,  shape: 'text', value: 50, label:"design", font: {size: 30, color: '#444b54'}},
@@ -160,7 +165,7 @@ class SkillsBlock extends Component {
             };
             network = new vis.Network(container, data, options);
 
-            // //Get the canvas HTML element
+            //Get the canvas HTML element
             const networkCanvas = netElement.getElementsByTagName("canvas")[0];
 
             function changeCursor(newCursorStyle) {
@@ -253,10 +258,7 @@ class SkillsBlock extends Component {
                     network.stabilize();
                 }
             }
-
-
         }
-
         draw();
     }
 }

@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import './MainPage.css';
 
+/**
+ * Главная страница
+ */
 class MainPage extends Component {
 
     render() {
@@ -23,12 +26,12 @@ class MainPage extends Component {
         );
     }
 
+/*** Анимация фона*/
     componentDidMount() {
         var canvas = document.getElementById('myCanvas');
         var ctx = canvas.getContext('2d');
         var x = canvas.width = window.innerWidth;
-        var y = canvas.height = window.innerHeight;
-        var raf;
+        var y = canvas.height = window.innerHeight-10;
 
         var ballNumber = 100;
         var balls = [];
@@ -78,7 +81,7 @@ class MainPage extends Component {
                         ctx.beginPath();
                         ctx.moveTo(ball.x, ball.y);
                         ctx.lineTo(otherBall.x, otherBall.y);
-                        ctx.strokeStyle = 'rgb(236, 240, 241)'
+                        ctx.strokeStyle = 'rgb(236, 240, 241)';
                         ctx.closePath();
                         ctx.stroke();
                     }
@@ -92,7 +95,7 @@ class MainPage extends Component {
                     ball.vx = -ball.vx
                 }
             }, this);
-            raf = window.requestAnimationFrame(update);
+            window.requestAnimationFrame(update);
         })();
     }
 }

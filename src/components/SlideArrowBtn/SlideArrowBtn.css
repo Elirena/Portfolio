@@ -1,0 +1,68 @@
+/*arrows*/
+.arrow-btn {
+    position: relative;
+    bottom: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    overflow: hidden;
+    width: 90px;
+    color: rgba(0, 0, 0, 0);
+}
+
+.arrow-btn::after {
+    content: "Effec";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #1f1f1f;
+    transition: all 0.5s, opacity 0.3s;
+}
+
+.arrow-btn::before {
+    content: "Effec";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    color: #fcdb74;
+    opacity: 0;
+    transition: all 0.5s, opacity 0.3s;
+}
+
+.arrow-btn:hover::after {
+    opacity: 0;
+    transform: translateY(100%);
+}
+.arrow-btn:hover::before {
+    opacity: 1;
+    transform: translateY(100%);
+}
+
+.prew, .next {
+    display: inline-block;
+    cursor: pointer;
+}
+.prew {
+    text-align: left;
+}
+.prew::after {
+    content: "prew";
+    border-top: 1px solid #1f1f1f;
+}
+.prew::before {
+    content: "< prew";
+    border-top: 1px solid #fcdb74;
+}
+.next::after {
+    content: "next";
+    border-top: 1px solid #1f1f1f;
+}
+.next::before {
+    content: "> next";
+    border-top: 1px solid #fcdb74;
+}

@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 import 'react-vertical-timeline-component/style.min.css';
 import icon1 from './img/exp_icon.png';
 
-import './ExperienceBlock.css';
+/**
+ * Блок опыт
+ */
 
 class ExperienceBlock extends Component {
 
@@ -22,7 +24,6 @@ class ExperienceBlock extends Component {
                         className="vertical-timeline-element--work"
                         date="2018"
                         iconStyle={{ background: '#fcdb74', color: '#fff' }}
-                        // icon={}
                     >
                         <h3 className="vertical-timeline-element-title">React-разработчик</h3>
                         <h4 className="vertical-timeline-element-subtitle">Фриланс</h4>
@@ -35,7 +36,6 @@ class ExperienceBlock extends Component {
                         className="vertical-timeline-element--work"
                         date="2017"
                         iconStyle={{ background: '#fcdb74', color: '#fff' }}
-                        // icon={}
                     >
                         <h3 className="vertical-timeline-element-title">React-разработка</h3>
                         <h4 className="vertical-timeline-element-subtitle">Доп. образование</h4>
@@ -48,7 +48,6 @@ class ExperienceBlock extends Component {
                         className="vertical-timeline-element--work"
                         date="2017"
                         iconStyle={{ background: '#fcdb74', color: '#fff' }}
-                        // icon={}
                     >
                         <h3 className="vertical-timeline-element-title">Frontend разработчик</h3>
                         <h4 className="vertical-timeline-element-subtitle">"Umka Mall"</h4>
@@ -62,7 +61,6 @@ class ExperienceBlock extends Component {
                         className="vertical-timeline-element--work"
                         date="2016"
                         iconStyle={{ background: '#fcdb74', color: '#fff' }}
-                        // icon={}
                     >
                         <h3 className="vertical-timeline-element-title">JavaScript веб-разработчик</h3>
                         <h4 className="vertical-timeline-element-subtitle">Фриланс</h4>
@@ -74,7 +72,6 @@ class ExperienceBlock extends Component {
                         className="vertical-timeline-element--work"
                         date="2016"
                         iconStyle={{ background: '#fcdb74', color: '#fff' }}
-                        // icon={}
                     >
                         <h3 className="vertical-timeline-element-title">JavaScript разработка</h3>
                         <h4 className="vertical-timeline-element-subtitle">Доп. образование</h4>
@@ -86,7 +83,6 @@ class ExperienceBlock extends Component {
                         className="vertical-timeline-element--education"
                         date="2014-2015"
                         iconStyle={{ background: '#fcdb74', color: '#fff' }}
-                        // icon={}
                     >
                         <h3 className="vertical-timeline-element-title">Flash-дизайнер</h3>
                         <h4 className="vertical-timeline-element-subtitle">"МЭЛМАРТ"</h4>
@@ -99,7 +95,6 @@ class ExperienceBlock extends Component {
                         className="vertical-timeline-element--education"
                         date="2014"
                         iconStyle={{ background: '#fcdb74', color: '#fff' }}
-                        // icon={}
                     >
                         <h3 className="vertical-timeline-element-title">Информатик-дизайнер</h3>
                         <h4 className="vertical-timeline-element-subtitle">Получение ВО</h4>
@@ -111,7 +106,6 @@ class ExperienceBlock extends Component {
                         className="vertical-timeline-element--education"
                         date="2013"
                         iconStyle={{ background: '#fcdb74', color: '#fcdb74' }}
-                        // icon={}
                     >
                         <h3 className="vertical-timeline-element-title">Web-разработка</h3>
                         <h4 className="vertical-timeline-element-subtitle">Фриланс</h4>
@@ -120,7 +114,6 @@ class ExperienceBlock extends Component {
                         </p>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
-
             </div>
         );
     }
