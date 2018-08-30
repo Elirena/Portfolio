@@ -65,7 +65,7 @@ class ExperienceBlock extends Component {
                         <h3 className="vertical-timeline-element-title">JavaScript веб-разработчик</h3>
                         <h4 className="vertical-timeline-element-subtitle">Фриланс</h4>
                         <p>
-                           Проектироваание и разработка клиентсткой части веб-приложений на JS.
+                           Проектироваание и разработка клиентской части веб-приложений на JS.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement

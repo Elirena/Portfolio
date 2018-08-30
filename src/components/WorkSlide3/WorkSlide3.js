@@ -48,7 +48,10 @@ class WorkSlide3 extends Component {
                             react--redux
                         </div>
                         <div className="arrow-nav">
-
+                            <SlideArrowBtn
+                                direction="arrow-btn prew"
+                                callFn={slideFn.bind(this,1)}
+                            />
                             <SlideArrowBtn
                                 direction="arrow-btn next"
                                 callFn={slideFn.bind(this,3)}

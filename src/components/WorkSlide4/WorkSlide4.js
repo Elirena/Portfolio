@@ -38,10 +38,7 @@ class WorkSlide4 extends Component {
                             поиск и создание графического контента
                         </div>
                         <div className="arrow-nav">
-                            <SlideArrowBtn
-                                direction="arrow-btn prew"
-                                callFn={slideFn.bind(this,2)}
-                            />
+
                             <SlideArrowBtn
                                 direction="arrow-btn prew"
                                 callFn={slideFn.bind(this,0)}
